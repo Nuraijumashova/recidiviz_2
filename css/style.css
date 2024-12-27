@@ -333,27 +333,121 @@ li {
   width: 248px;
   color: #355362cc;
 }
-.article-container {
-  width: 90px;
-  max-width: 1269px;
-  align-items: center;
+.articles-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.article-title {
-  font-size: 2rem;
-  margin-bottom: 20px;
+.articles-card-img {
+  min-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
-.articles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-.articles-img {
-  width: 24px;
-  height: 24px;
-}
-.articles-h1 {
+.articles-card-h2 {
   font-family: "Public Sans", serif;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.articles-card-data {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.contakts {
+  font-family: "Public Sans", serif;
+  margin: 0;
+}
+
+.contacts-conteiner {
+  width: 1280px;
+  height: 630px;
   display: flex;
-  gap: 10px;
-  color: rgba(53, 83, 98, 0.6);
+  align-items: center;
+  background-color: rgb(0, 31, 31);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contacts-col {
+  width: 50%;
+}
+
+.contacts-left {
+  padding-right: 100px;
+}
+
+.contacts-right {
+  padding-left: 100px;
+}
+.contakts * {
+  color: #ffff;
+  font-size: 18px;
+}
+
+.contacts-title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 66px;
+  color: #fff;
+}
+
+.contacts-text {
+  font-size: 18px;
+  width: 364px;
+  margin: 0 0 24px 0;
+  color: #ffff;
+}
+
+.contacts-btn {
+  position: relative;
+  padding-left: 66px;
+  color: #f9f9f9;
+  display: inline-block;
+  padding: 12px 20px;
+
+  text-decoration: none;
+  border: 1px solid #014c48;
+  border-radius: 80px;
+  font-family: sans-serif;
+  transition: 0.5s;
+  background-color: #014c48;
+}
+
+.contacts-details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contacts-details a {
+  text-decoration: none;
+}
+
+.contacts-right {
+  display: flex;
+  gap: 10pxpx;
+}
+.contacts-img {
+  width: 461px;
+}
+.footer {
+  background-color: #001414;
+  margin: 0;
+  padding: 0;
+}
+.footer-container {
+  max-width: 1280px;
+}
+
+.footer-left-column-1 {
+  padding-bottom: 35px;
+}
+.footer-left-column-2 {
+  padding-bottom: 65px;
 }
