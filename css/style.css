@@ -333,3 +333,27 @@ li {
   width: 248px;
   color: #355362cc;
 }
+.article-container {
+  width: 90px;
+  max-width: 1269px;
+  align-items: center;
+}
+.article-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.articles-img {
+  width: 24px;
+  height: 24px;
+}
+.articles-h1 {
+  font-family: "Public Sans", serif;
+  display: flex;
+  gap: 10px;
+  color: rgba(53, 83, 98, 0.6);
+}
