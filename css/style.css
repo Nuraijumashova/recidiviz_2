@@ -157,7 +157,7 @@ li {
   color: #fff;
 }
 .approach_tittle {
-  font-family: Public Sans;
+  font-family: "Public Sans", serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 22px;
@@ -182,4 +182,40 @@ li {
 }
 .approach_imges2 {
   width: 317px;
+}
+
+.locations2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.logo {
+  margin-bottom: 20px;
+  display: flex;
+}
+.logo-img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.logo-h1 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+.locations2-text {
+  color: rgba(53, 83, 98, 0.8);
+  font-family: "Public Sans", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin: 16px 61px 0 32px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-top: 1px solid rgba(53, 83, 98, 0.8);
 }
