@@ -270,3 +270,66 @@ li {
   width: 150px;
   height: 60px;
 }
+.company {
+  margin: 16px;
+}
+.container_company {
+  display: flex;
+  gap: 13px;
+  justify-content: space-around;
+}
+.company_tittle {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  align-self: center;
+  color: #35536299;
+}
+.company_img {
+  width: 150px;
+  height: 60px;
+}
+
+.infografic {
+  padding: 60px;
+  background: #f4f5f5;
+}
+.infografic_img {
+  width: 100%;
+}
+.infografic_all {
+  display: flex;
+  gap: 10%;
+}
+.infografic_tittle {
+  font-family: "Libre Baskerville", serif;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: left;
+  width: 424px;
+}
+.infografic_all_list {
+  display: flex;
+  gap: 30px;
+}
+.infografic_all_list_2_tit {
+  font-family: "Public Sans", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.infografic_all_list_2_txt {
+  font-family: "Public Sans", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 248px;
+  color: #355362cc;
+}
