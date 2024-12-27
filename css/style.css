@@ -248,3 +248,25 @@ li {
   color: #fff;
   margin: 25%;
 }
+.company {
+  margin: 16px;
+}
+.container_company {
+  display: flex;
+  gap: 13px;
+  justify-content: space-around;
+}
+.company_tittle {
+  font-family: "Public Sans", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  align-self: center;
+  color: #35536299;
+}
+.company_img {
+  width: 150px;
+  height: 60px;
+}
